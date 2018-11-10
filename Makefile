@@ -9,5 +9,5 @@ hello.o: hello.cc
 	g++ -Wall -c hello.cc 
 	
 clean:
-	rm -f hello.o
-	rm -f hello
+	rm -f hello.o hello
+	
